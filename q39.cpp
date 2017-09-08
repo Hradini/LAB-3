@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	int num,n1,n2,n3,n4,a = 0;
+	int num,n1,n2,n3,a = 1;
 	cin >> num;
 	n1 = num; n2= num;
 	while ( n1 >= 10){
