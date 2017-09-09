@@ -2,23 +2,21 @@
 using namespace std;
 
 int main() {
-	int num,n1,n2,n3,a = 1;
+	int num,n1,n2, n3,a = 0;
 	cin >> num;
-	n1 = num; n2= num;
-	while ( n1 >= 10){
-		n1 = n1 % 10;
-		n2 = n1;
-		while ( num != 0){
-			num = num / 10;
-			n3 = num % 10;
-			if (n2 == n3){
-				a= a +1;
+	n2=num;
+	for (n1 = 0; n1<=9; n1++){
+		a = 0;
+		n2 = num;
+		while (n2 >0){
+			n3 = n2 % 10;
+			n2 = n2 / 10;
+			if ( n3 == n1){
+				a++;
 			}
 			
 		}
-		cout << "the frequency of the digit " << n2 << "is " << a << endl;
-		
+		cout << "the frequency of the digit " << n1 << " is " << a << endl;
 	}
 	
-	return 0;
 }
