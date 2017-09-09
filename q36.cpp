@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	int num,pro, n1;
-	sum = 1;
+	pro = 1;
 	cout << "enter the positive integer: \n";
 	cin >> num;
 	n1 = num;
