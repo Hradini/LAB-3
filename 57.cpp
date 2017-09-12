@@ -2,14 +2,13 @@
 using namespace std;
 
 int main() {
-	int n1 =0,n2=1,n3, count=0;
+	int n1 =0,n2=0,n3=1,i=1, count=0;
 	cin >> count;
-	cout << n1 << " " << n2 << " ";
-	
-	while(n3 <= count){
+	while(i <= count){
+		cout << n3 << " ";
 		n1=n2; n2=n3;
 		n3= n2+n1;
-		cout << n3 << " ";
+		i++;
 	} 
 
 	return 0;
