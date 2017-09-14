@@ -14,7 +14,6 @@ int main()
    return 0;
 }
 
-// Function to convert decimal number to octal
 int decimalToOctal(int decimalNumber)
 {
     int rem, i = 1, octalNumber = 0;
