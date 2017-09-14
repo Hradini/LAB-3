@@ -9,7 +9,7 @@ int main() {
 		num /= 10;
 	}
 	num = x;
-	cout <<x;
+	
 	while ( num !=0){
 		d = num %10;
 		num /= 10;
